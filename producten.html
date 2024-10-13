@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mats Vanspringel">
+    <meta name="description" content="Leerlingonderneming SJB">
+    <title>WNKL Producten - Leeronderneming SJB</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="productImages/favicon.ico" type="image/x-icon">
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/123823bc9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <a href="index.html">
+                <img src="/productImages/LOGOWNKLPNG-04.png" alt="Logo wnkl">
+            </a>
+    
+            <ul class="nav-list">
+                <li><a class="list-link" href="index.html">Home</a></li>
+                <li>
+                    <p class="list-link" onclick="change_visibility()">Categories</p>
+
+                    <div id="productCategories" style="visibility: hidden">
+                        <button class="category-button" name="pouchbag" onclick="product_categories('pouchbag')">Pouchbags</button>
+                        <button class="category-button" name="pesto" onclick="product_categories('pesto')">Pesto</button>
+                        <button class="category-button" name="pasta" onclick="product_categories('pasta')">Pasta</button>
+                        <button class="category-button" name="pastaSauzen" onclick="product_categories('pastasauzen')">Pasta sauzen</button>
+                        <button class="category-button" name="koek" onclick="product_categories('koek')">Koeken</button>
+                        <button class="category-button" name="hummus" onclick="product_categories('hummus')">Hummus</button>
+                        <button class="category-button" name="chocolade" onclick="product_categories('chocolade')">Chocolade</button>
+                        <button class="category-button" name="chipsEnZoutjes" onclick="product_categories('chipsEnZoutjes')">Chips & zoutjes</button>
+                        <button class="category-button" name="baruPoeders" onclick="product_categories('baruPoeders')">Baru poeders</button>
+                        <button class="category-button" name="tapenade" onclick="product_categories('tapenade')">Tapenade</button>
+                    </div>
+                </li>
+                <li>
+                    <form onsubmit="search_products()">
+                        <input id="searchbar" name="search" type="text" for"product" style="height: 25px" />  <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="productContainer" class="flex product-container">
+            
+        </div>
+    </div>
+
+    <footer class="flex" style="flex-direction: column;">
+        <p>&copy; 2024 WNKL</p>
+
+        <ul class="nav-list">
+            <li><a href="#overOns"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#producten">Producten</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
