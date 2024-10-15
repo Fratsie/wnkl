@@ -65,7 +65,55 @@ function product_categories(category){
         }
     });
 
-    change_visibility();
+    if(category != "spotlight"){
+        change_visibility();
+    }
+}
+
+function get_spotlights(category){
+    container = document.getElementById('spotlightContainer');
+    container.innerHTML = "";
+
+    fetch('data.json').then(data => data.json()).then(response => {
+        var allProducts = response;
+        var productsCategory = allProducts[category];
+
+        for(var i in productsCategory){
+            var product = productsCategory[i];
+
+            //declare product details
+            var productName = product['naam'];
+            var productVerkoopprijs = product['verkoopprijs'];
+            var productDescription = product['description'];
+            var productImage = product['image'];
+
+            //create elements
+            var div = document.createElement('div');
+            var img = document.createElement('img');
+            var h3 = document.createElement('h3');
+            var p = document.createElement('p');
+
+            //fill in elements
+            img.src = productImage;
+            img.alt = productName;
+            h3.innerHTML = productName + " - " + productVerkoopprijs;
+            p.innerHTML = productDescription;
+
+            //add everything to div
+            div.append(img);
+            div.append(h3);
+            div.append(p);
+
+            div.classList.add('product')
+
+            //append div to productscontainer
+            container.append(div);
+        }
+    });
+
+    if(category != "spotlight"){
+        change_visibility();
+    }
 }
 
 function search_products(){

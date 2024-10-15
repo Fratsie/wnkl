@@ -342,5 +342,31 @@
                 "description": "Hummus zongedroogde tomaat op basis van kikkererwten en zongedroogde tomaat. Erg lekker voor bij de borrel in combinatie met toastjes, of met groenten!",
                 "image": "/productImages/hummus/hummustomaat.jpg"
             }
+        },
+        "spotlight": {
+            "Barú - fluffy marshmallow chocolate powder 250 gram": {
+                "naam": "Barú - fluffy marshmallow chocolate powder 250 gram",
+                "verkoopprijs": "6.03",
+                "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
+                "image": "/productImages/baruPoeders/barumarshmallowchocolate.jpg"
+            },
+            "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
+                "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
+                "verkoopprijs": "4.18",
+                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
+                "image": "/productImages/chocolade/breekchocoladecranberry.jpg"
+            },
+            "Hoeksche - chips met zeezout 150 gram":{
+                "naam": "Hoeksche - chips met zeezout 150 gram",
+                "verkooprijs": "2.61",
+                "description": "Ambachtelijk bereide chips, gebakken in zuivere zonnebloemolie uit de Hoeksche Waard met zeezout. De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
+                "image": "/productImages/chipsEnZoutjes/zeezoutchips.jpg"
+            },
+            "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram": {
+                "naam": "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram",
+                "verkoopprijs": "3.92",
+                "description": "Sugo campagnola di pomodoro",
+                "image": "/productImages/pastaSauzen/dinonnapomodoro.jpg"
+            }
         }
 }

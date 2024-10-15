@@ -12,7 +12,8 @@ h2{
 
 nav{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #1E6E93;
+    color: white;
     height: 12vh;
 }
 
@@ -78,7 +79,7 @@ ul input{
     display: none;
 
     list-style: none;
-    background-color: whitesmoke;
+    background-color: #1E6E93;
     width: 40vw;
     padding: 5px;
     border-bottom-right-radius: 10px;
@@ -89,6 +90,10 @@ ul input{
 
 .nav-list li{
     margin: 5px;
+}
+
+.nav-list li a{
+    color: white;
 }
 
 .container{
@@ -107,9 +112,9 @@ ul input{
     width : 80vw;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: lightblue;
     margin: 10px;
     padding: 10px;
+    box-shadow: 2px 2px 7px 2px #888;
 
     z-index: 1;
 }
@@ -121,6 +126,7 @@ ul input{
 .product h3{
     font-size: 12pt;
     margin-bottom: 5px;
+    color: #1E6E93;
 }
 
 .product-container{
@@ -208,10 +214,10 @@ ul input{
 }
 
 #overContainer{
-    background-color: lightblue;
+    color: white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgba(0,0,0,.25);
+    box-shadow: 3px 3px 10px 3px #888;
 }
 
 #overPicture{
@@ -247,7 +253,6 @@ ul input{
 
 #overOns{
     flex-direction: column; 
-    background-color: lightcyan;
 }
 
 #overOns p{
@@ -256,6 +261,8 @@ ul input{
 
 #overOns div{
     margin: 20px;
+    background-color: whitesmoke;
+    color: black;
 }
 
 #contact{
@@ -263,7 +270,8 @@ ul input{
 }
 
 #contactContainer{
-    background-color: lightgrey; 
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 10px 3px #888; 
     border-radius: 20px;
     width: 80vw;
     margin: 20px;
@@ -302,4 +310,8 @@ ul input{
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+
+#productNav p{
+    color: white;
 }
