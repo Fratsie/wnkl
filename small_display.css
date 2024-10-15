@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+h2{
+    font-family: verdana;
+    margin: 20px;
+}
+
+nav{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 12vh;
+}
+
+label{
+    margin: 10px;
+}
+
+input, textarea{
+    width: 70vw;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea{
+    min-height: 20vh;
+    max-height: 20vh;
+    min-width: 70vw;
+    max-width: 70vw;
+}
+
+iframe{
+    border-radius: 20px;
+    margin: 10px;
+    width: 35vw;
+    height: 60vh;
+}
+
+footer{
+    height: 15vh;
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-family: verdana;
+    font-size: 12pt;
+    color: black;
+    transition: color .5s ease;
+}
+
+footer p{
+    margin: 10px;
+}
+
+footer ul li a:hover{
+    color: blue;
+}
+
+ul input{
+    width: 20vw;
+    margin: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.nav-list{
+    display: none;
+
+    list-style: none;
+    background-color: whitesmoke;
+    width: 40vw;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    z-index: 2;
+}
+
+.nav-list li{
+    margin: 5px;
+}
+
+.container{
+    min-height: 100vh;
+    text-align: center; 
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    min-height: 45vh;
+    width : 80vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+
+    z-index: 1;
+}
+
+.product p{
+    font-size: 10pt;
+}
+
+.product h3{
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.product-container{
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.content-block{
+    width: 50vw;
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: verdana;
+    text-align: left;
+}
+
+.productForm{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.list-link{
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+    transition: color .5s ease;
+}
+
+.list-link:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+.category-link{
+    padding: 5px;
+}
+
+.button{
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+
+    font-family: verdana;
+    font-weight: bold;
+    transition: background-color .5s ease;
+}
+
+.button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.drop-down{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.category-button{
+    width: 115px;
+    height: 25px;
+    margin: 2px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: color .25s ease;
+}
+
+.category-button:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#overContainer{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0,0,0,.25);
+}
+
+#overPicture{
+    height: 50vh;
+    width: 80vw;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+#productCategories{
+    visibility: hidden;
+    position: absolute;
+    width: 115px;
+    z-index: 2;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#homePage{
+    display: flex;
+    flex-direction: column;
+    min-height: 88vh;
+}
+
+#homePage img{
+    z-index: -1;
+}
+
+#hopePage div{
+    display: block;
+}
+
+#overOns{
+    flex-direction: column; 
+    background-color: lightcyan;
+}
+
+#overOns p{
+    width: 80vw;
+}
+
+#overOns div{
+    margin: 20px;
+}
+
+#contact{
+    flex-direction: column;
+}
+
+#contactContainer{
+    background-color: lightgrey; 
+    border-radius: 20px;
+    width: 80vw;
+    margin: 20px;
+}
+
+#map{
+    width: 80vw;
+}
+
+#spotlight{
+    flex-direction: column;
+}
+
+#menu{
+    padding: 10px;
+}
+
+#footerList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+#searchbar{
+    width: 50vw;
+}
+
+#productList{
+    background-color: lightgray;
+}
+
+#productNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}

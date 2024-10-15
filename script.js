@@ -1,4 +1,5 @@
 var visibility = false;
+var droppeddown = false;
 var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poeders', 'pasta', 'pastasauzen', 'pesto', 'tapenade', 'hummus'];
 
 function change_visibility(){
@@ -9,6 +10,17 @@ function change_visibility(){
     else{
         document.getElementById('productCategories').style.visibility = 'visible'
         visibility = true
+    }
+}
+
+function dropdown(){
+    if(droppeddown){
+        document.getElementById('navigation_list').style.display = 'none';
+        droppeddown = false;
+    }
+    else{
+        document.getElementById('navigation_list').style.display = 'block';
+        droppeddown = true;
     }
 }
 

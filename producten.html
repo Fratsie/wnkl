@@ -8,7 +8,9 @@
     <meta name="description" content="Leerlingonderneming SJB">
     <title>WNKL Producten - Leeronderneming SJB</title>
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="small_display.css">
+    <link rel="stylesheet" href="large_display.css" media="screen and (min-width: 1000px)">
     <link rel="shortcut icon" href="productImages/favicon.ico" type="image/x-icon">
 
     <script src="script.js"></script>
@@ -22,8 +24,7 @@
                 <img src="/productImages/LOGOWNKLPNG-04.png" alt="Logo wnkl">
             </a>
     
-            <ul class="nav-list">
-                <li><a class="list-link" href="index.html">Home</a></li>
+            <ul id="productNav">
                 <li>
                     <p class="list-link" onclick="change_visibility()">Categories</p>
 
@@ -53,10 +54,10 @@
         </div>
     </div>
 
-    <footer class="flex" style="flex-direction: column;">
+    <footer class="flex">
         <p>&copy; 2024 WNKL</p>
 
-        <ul class="nav-list">
+        <ul id="footerList">
             <li><a href="#overOns"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#producten">Producten</a></li>

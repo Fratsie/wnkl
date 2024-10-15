@@ -1,0 +1,77 @@
+h2{
+    font-size: 14pt;
+}
+
+input, textarea{
+    width: 30vw;
+}
+
+textarea{
+    min-width: 30vw;
+    max-width: 30vw;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.product{
+    width : 20vw;
+}
+
+.content-block{
+    flex-direction: row;
+}
+
+#overContainer{
+    padding: 15px;
+    height: 50vh;
+}
+
+#overContainer p{
+    text-align: justify;
+}
+
+#overPicture{
+    width: 20vw;
+    margin: 50px;
+}
+
+#homePage{
+    columns: 2;
+}
+
+#homePage p{
+    text-align: justify;
+}
+
+#overOns{
+    flex-direction: row;
+}
+
+#overOns p{
+    width: 30vw;
+}
+
+#contact{
+    flex-direction: row;
+}
+
+#map{
+    width: 40vw;
+}
+
+#contactContainer{
+    width: 40vw;
+}
+
+#menu{
+    display: none;
+}
+
+#searchbar{
+    width: 20vw;
+}
