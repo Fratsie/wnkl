@@ -286,7 +286,7 @@ ul input{
 }
 
 #spotlightContainer{
-    display: column;
+    flex-direction: column;
 }
 
 #menu{
