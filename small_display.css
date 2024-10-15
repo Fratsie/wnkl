@@ -285,6 +285,10 @@ ul input{
     flex-direction: column;
 }
 
+#spotlightContainer{
+    display: column;
+}
+
 #menu{
     padding: 10px;
 }
