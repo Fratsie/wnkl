@@ -139,41 +139,52 @@ function search_products(){
         productsArray.forEach(element => {
             var search_input = document.getElementById('searchbar').value.trim().toLowerCase();
 
-            if(element['naam'].includes(search_input) && search_input != ""){
+            console.log(element['naam'] + " - " + search_input)
+
+            if(element['naam'].toLowerCase().includes(search_input) && search_input != ""){
                 search_results.push(element);
             }
         });
 
-        for(var i in search_results){
-            var product = search_results[i];
+        if(search_results.length != 0){
+            for(var i in search_results){
+                var product = search_results[i];
+    
+                //declare product details
+                var productName = product['naam'];
+                var productVerkoopprijs = product['verkoopprijs'];
+                var productDescription = product['description'];
+                var productImage = product['image'];
+    
+                //create elements
+                var div = document.createElement('div');
+                var img = document.createElement('img');
+                var h3 = document.createElement('h3');
+                var p = document.createElement('p');
+    
+                //fill in elements
+                img.src = productImage;
+                img.alt = productName;
+                h3.innerHTML = productName + " - " + productVerkoopprijs;
+                p.innerHTML = productDescription;
+    
+                //add everything to div
+                div.append(img);
+                div.append(h3);
+                div.append(p);
+    
+                div.classList.add('product')
+    
+                //append div to productscontainer
+                container.append(div);
+            }
+        }
+        else{
+            var p = document.createElement('h3');
 
-            //declare product details
-            var productName = product['naam'];
-            var productVerkoopprijs = product['verkoopprijs'];
-            var productDescription = product['description'];
-            var productImage = product['image'];
-
-            //create elements
-            var div = document.createElement('div');
-            var img = document.createElement('img');
-            var h3 = document.createElement('h3');
-            var p = document.createElement('p');
-
-            //fill in elements
-            img.src = productImage;
-            img.alt = productName;
-            h3.innerHTML = productName + " - " + productVerkoopprijs;
-            p.innerHTML = productDescription;
-
-            //add everything to div
-            div.append(img);
-            div.append(h3);
-            div.append(p);
-
-            div.classList.add('product')
-
-            //append div to productscontainer
-            container.append(div);
+            p.innerHTML = "Geen producten gevonden";
+            p.style.marginTop = "20px";
+            container.append(p);
         }
     });
 }
