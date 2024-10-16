@@ -13,9 +13,15 @@ textarea{
 
 .nav-list{
     display: flex;
+    width: 100vw;
+    border-radius: 0;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.nav-list li{
+    margin: 5px;
 }
 
 .product{
@@ -29,10 +35,6 @@ textarea{
 #overContainer{
     padding: 15px;
     height: 50vh;
-}
-
-#overContainer p{
-    text-align: justify;
 }
 
 #overPicture{
@@ -74,4 +76,8 @@ textarea{
 
 #searchbar{
     width: 20vw;
+}
+
+#spotlightContainer{
+    flex-direction: row;
 }

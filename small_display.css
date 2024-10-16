@@ -6,8 +6,9 @@
 }
 
 h2{
-    font-family: verdana;
     margin: 20px;
+    color: #A3C6A5;    
+    text-transform: uppercase;
 }
 
 nav{
@@ -62,10 +63,11 @@ footer ul li a{
 
 footer p{
     margin: 10px;
+    font-size: 12pt;
 }
 
 footer ul li a:hover{
-    color: blue;
+    color: #DE8A68;
 }
 
 ul input{
@@ -89,7 +91,7 @@ ul input{
 }
 
 .nav-list li{
-    margin: 5px;
+    margin: 15px;
 }
 
 .nav-list li a{
@@ -167,7 +169,7 @@ ul input{
 }
 
 .list-link:hover{
-    color: lightblue;
+    color: #DE8A68;
     cursor: pointer;
 }
 
@@ -185,11 +187,12 @@ ul input{
 
     font-family: verdana;
     font-weight: bold;
-    transition: background-color .5s ease;
+    transition: background-color .5s ease, color .25s ease;
 }
 
 .button:hover{
-    background-color: lightblue;
+    background-color: #DE8A68;
+    color: white;
     cursor: pointer;
 }
 
@@ -210,7 +213,12 @@ ul input{
 
 .category-button:hover{
     cursor: pointer;
-    color: blue;
+    color: #DE8A68;
+}
+
+.accent{
+    color: #1E6E93;
+    font-weight: bold;
 }
 
 #overContainer{
@@ -218,6 +226,10 @@ ul input{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px 3px #888;
+}
+
+#overContainer p{
+    text-align: justify;
 }
 
 #overPicture{
@@ -247,8 +259,8 @@ ul input{
     z-index: -1;
 }
 
-#hopePage div{
-    display: block;
+#homePage p{
+    text-align: justify;
 }
 
 #overOns{
@@ -279,6 +291,8 @@ ul input{
 
 #map{
     width: 80vw;
+    margin: 20px;
+    box-shadow: 3px 3px 10px 3px #888;
 }
 
 #spotlight{
@@ -291,6 +305,7 @@ ul input{
 
 #menu{
     padding: 10px;
+    font-size: 12pt;
 }
 
 #footerList{
@@ -318,4 +333,13 @@ ul input{
 
 #productNav p{
     color: white;
+}
+
+#productNav p:hover{
+    color: #DE8A68;
+}
+
+#link{
+    color: #DE8A68;
+    font-weight: bold;
 }
