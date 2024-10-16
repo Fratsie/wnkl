@@ -77,6 +77,10 @@ ul input{
     border: 2px solid black;
 }
 
+hr{
+    display: none;
+}
+
 .nav-list{
     display: none;
 
@@ -253,18 +257,16 @@ ul input{
     display: flex;
     flex-direction: column;
     min-height: 88vh;
+    margin-bottom: 15px;
 }
 
 #homePage img{
     z-index: -1;
 }
 
-#homePage p{
-    text-align: justify;
-}
-
 #overOns{
     flex-direction: column; 
+    margin-bottom: 20px;
 }
 
 #overOns p{
@@ -279,6 +281,7 @@ ul input{
 
 #contact{
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 #contactContainer{
@@ -342,4 +345,12 @@ ul input{
 #link{
     color: #DE8A68;
     font-weight: bold;
+}
+
+#first{
+    text-align: left;
+}
+
+#second{
+    text-align: right;
 }

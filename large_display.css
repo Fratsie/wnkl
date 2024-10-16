@@ -11,6 +11,10 @@ textarea{
     max-width: 30vw;
 }
 
+hr{
+    display: block;
+}
+
 .nav-list{
     display: flex;
     width: 100vw;
@@ -44,6 +48,7 @@ textarea{
 
 #homePage{
     columns: 2;
+    margin-bottom: 0;
 }
 
 #homePage p{
@@ -52,6 +57,7 @@ textarea{
 
 #overOns{
     flex-direction: row;
+    margin-bottom: 0;
 }
 
 #overOns p{
@@ -60,6 +66,7 @@ textarea{
 
 #contact{
     flex-direction: row;
+    margin-bottom: 0;
 }
 
 #map{
