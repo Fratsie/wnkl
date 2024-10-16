@@ -55,6 +55,10 @@ hr{
     text-align: justify;
 }
 
+#homePage img:first-child{
+    display: block;
+}
+
 #overOns{
     flex-direction: row;
     margin-bottom: 0;
