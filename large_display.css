@@ -38,11 +38,12 @@ hr{
 
 #overContainer{
     padding: 15px;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 #overPicture{
     width: 20vw;
+    border-radius: 10px;
     margin: 50px;
 }
 

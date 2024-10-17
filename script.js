@@ -2,7 +2,7 @@ var visibility = false;
 var droppeddown = false;
 var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poeders', 'pasta', 'pastasauzen', 'pesto', 'tapenade', 'hummus'];
 
-function change_visibility(){
+function change_visibility(change){
     if(visibility){
         document.getElementById('productCategories').style.visibility = 'hidden'
         document.getElementById('dropdownArrow').style.rotate = "180deg";
@@ -12,6 +12,12 @@ function change_visibility(){
         document.getElementById('productCategories').style.visibility = 'visible'
         document.getElementById('dropdownArrow').style.rotate = "0deg";
         visibility = true
+    }
+
+    if(change == "body"){
+        document.getElementById('productCategories').style.visibility = 'hidden'
+        document.getElementById('dropdownArrow').style.rotate = "180deg";
+        visibility = false
     }
 }
 
@@ -27,7 +33,7 @@ function dropdown(){
 }
 
 function product_categories(category){
-    container = document.getElementById('productContainer');
+    var container = document.getElementById('productContainer');
     container.innerHTML = "";
 
     fetch('data.json').then(data => data.json()).then(response => {
@@ -60,7 +66,7 @@ function product_categories(category){
             div.append(h3);
             div.append(p);
 
-            div.classList.add('product')
+            div.classList.add('product');
 
             //append div to productscontainer
             container.append(div);
@@ -68,7 +74,7 @@ function product_categories(category){
     });
 
     if(category != "spotlight"){
-        change_visibility();
+        change_visibility('');
     }
 }
 
@@ -112,20 +118,17 @@ function get_spotlights(category){
             container.append(div);
         }
     });
-
-    if(category != "spotlight"){
-        change_visibility();
-    }
 }
 
 function search_products(){
     event.preventDefault();
 
-    container = document.getElementById('productContainer');
+    var container = document.getElementById('productContainer');
     container.innerHTML = "";
 
     var productsArray = [];
     var search_results = [];
+    searched = true;
 
     fetch('data.json').then(data => data.json()).then(response => {
         var allProducts = response;
@@ -141,6 +144,10 @@ function search_products(){
         productsArray.forEach(element => {
             var search_input = document.getElementById('searchbar').value.trim().toLowerCase();
 
+            if(search_input == ""){
+                searched = false;
+            }
+
             console.log(element['naam'] + " - " + search_input)
 
             if(element['naam'].toLowerCase().includes(search_input) && search_input != ""){
@@ -148,45 +155,50 @@ function search_products(){
             }
         });
 
-        if(search_results.length != 0){
-            for(var i in search_results){
-                var product = search_results[i];
-    
-                //declare product details
-                var productName = product['naam'];
-                var productVerkoopprijs = product['verkoopprijs'];
-                var productDescription = product['description'];
-                var productImage = product['image'];
-    
-                //create elements
-                var div = document.createElement('div');
-                var img = document.createElement('img');
-                var h3 = document.createElement('h3');
-                var p = document.createElement('p');
-    
-                //fill in elements
-                img.src = productImage;
-                img.alt = productName;
-                h3.innerHTML = productName + " - €" + productVerkoopprijs;
-                p.innerHTML = productDescription;
-    
-                //add everything to div
-                div.append(img);
-                div.append(h3);
-                div.append(p);
-    
-                div.classList.add('product')
-    
-                //append div to productscontainer
-                container.append(div);
-            }
+        if(!searched){
+            product_categories('spotlight');
         }
         else{
-            var p = document.createElement('h3');
-
-            p.innerHTML = "Geen producten gevonden";
-            p.style.marginTop = "20px";
-            container.append(p);
+            if(search_results.length != 0){
+                for(var i in search_results){
+                    var product = search_results[i];
+        
+                    //declare product details
+                    var productName = product['naam'];
+                    var productVerkoopprijs = product['verkoopprijs'];
+                    var productDescription = product['description'];
+                    var productImage = product['image'];
+        
+                    //create elements
+                    var div = document.createElement('div');
+                    var img = document.createElement('img');
+                    var h3 = document.createElement('h3');
+                    var p = document.createElement('p');
+        
+                    //fill in elements
+                    img.src = productImage;
+                    img.alt = productName;
+                    h3.innerHTML = productName + " - €" + productVerkoopprijs;
+                    p.innerHTML = productDescription;
+        
+                    //add everything to div
+                    div.append(img);
+                    div.append(h3);
+                    div.append(p);
+        
+                    div.classList.add('product')
+        
+                    //append div to productscontainer
+                    container.append(div);
+                }
+            }
+            else{
+                var p = document.createElement('h3');
+    
+                p.innerHTML = "Geen producten gevonden";
+                p.style.marginTop = "20px";
+                container.append(p);
+            }
         }
     });
 }
