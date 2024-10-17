@@ -363,3 +363,7 @@ hr{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+#dropdownArrow{
+    rotate: 180deg;
+}

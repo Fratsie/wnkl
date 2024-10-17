@@ -5,10 +5,12 @@ var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poede
 function change_visibility(){
     if(visibility){
         document.getElementById('productCategories').style.visibility = 'hidden'
+        document.getElementById('dropdownArrow').style.rotate = "180deg";
         visibility = false
     }
     else{
         document.getElementById('productCategories').style.visibility = 'visible'
+        document.getElementById('dropdownArrow').style.rotate = "0deg";
         visibility = true
     }
 }
@@ -50,7 +52,7 @@ function product_categories(category){
             //fill in elements
             img.src = productImage;
             img.alt = productName;
-            h3.innerHTML = productName + " - " + productVerkoopprijs;
+            h3.innerHTML = productName + " - €" + productVerkoopprijs;
             p.innerHTML = productDescription;
 
             //add everything to div
@@ -96,7 +98,7 @@ function get_spotlights(category){
             //fill in elements
             img.src = productImage;
             img.alt = productName;
-            h3.innerHTML = productName + " - " + productVerkoopprijs;
+            h3.innerHTML = productName + " - €" + productVerkoopprijs;
             p.innerHTML = productDescription;
 
             //add everything to div
@@ -165,7 +167,7 @@ function search_products(){
                 //fill in elements
                 img.src = productImage;
                 img.alt = productName;
-                h3.innerHTML = productName + " - " + productVerkoopprijs;
+                h3.innerHTML = productName + " - €" + productVerkoopprijs;
                 p.innerHTML = productDescription;
     
                 //add everything to div
