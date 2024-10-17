@@ -15,7 +15,7 @@ nav{
     text-align: center;
     background-color: #1E6E93;
     color: white;
-    height: 12vh;
+    min-height: 12vh;
 }
 
 label{
