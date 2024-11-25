@@ -1,34 +1,103 @@
 var visibility = false;
 var droppeddown = false;
-var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poeders', 'pasta', 'pastasauzen', 'pesto', 'tapenade', 'hummus'];
+var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poeders', 'pasta', 'pastasauzen', 'pesto', 'tapenade', 'hummus', 'handzeep', 'roomspray', 'geurstokje', 'geur-hart', 'ansichtkaart', 'servet', 'bladwijzer', 'maaltijdplanner', 'weekplanner', 'to-do', 'notitieblok', 'memoblok', 'armband', 'sjaal'];
+var slideNumber = 0;
 
 function change_visibility(change){
     if(visibility){
-        document.getElementById('productCategories').style.visibility = 'hidden'
-        document.getElementById('dropdownArrow').style.rotate = "180deg";
+        document.getElementById('productWrap').style.visibility = 'hidden'
+        document.getElementById('dropdownArrow').style.rotate = "0deg";
         visibility = false
+
+        show_handelaar('');
     }
     else{
-        document.getElementById('productCategories').style.visibility = 'visible'
-        document.getElementById('dropdownArrow').style.rotate = "0deg";
+        document.getElementById('productWrap').style.visibility = 'visible'
+        document.getElementById('dropdownArrow').style.rotate = "180deg";
         visibility = true
     }
 
     if(change == "body"){
-        document.getElementById('productCategories').style.visibility = 'hidden'
-        document.getElementById('dropdownArrow').style.rotate = "180deg";
-        visibility = false
+        document.getElementById('productWrap').style.visibility = 'hidden'
+        document.getElementById('dropdownArrow').style.rotate = "0deg";
+        visibility = false;
+
+        show_handelaar('');
     }
 }
 
-function dropdown(){
-    if(droppeddown){
-        document.getElementById('navigation_list').style.display = 'none';
-        droppeddown = false;
+function image_slide(number){
+    console.log(slideNumber);
+
+    slideNumber += number;
+    if(slideNumber < 1){
+        slideNumber = 3
+    }
+    else if(slideNumber > 3){
+        slideNumber = 1
+    }
+
+    document.getElementById('image1').style.display = 'none';
+    document.getElementById('image2').style.display = 'none';
+    document.getElementById('image3').style.display = 'none';
+    document.getElementById('image' + slideNumber).style.display = 'flex';
+}
+
+function show_handelaar(handelaar){
+    voets = document.getElementById('voets');
+    blissAndBloom = document.getElementById('blissAndBloom');
+    mijnStijl = document.getElementById('mijnStijl');
+
+    voetsBtn = document.getElementById('voetsButton');
+    blissAndBloomBtn = document.getElementById('blissAndBloomButton');
+    mijnStijlBtn = document.getElementById('mijnStijlButton');
+
+    if(handelaar == "voets"){
+        voets.style.visibility = "visible";
+        blissAndBloom.style.visibility = "hidden";
+        mijnStijl.style.visibility = "hidden";
+        
+        voetsBtn.style.backgroundColor = '#DE8A68'; 
+        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
+        mijnStijlBtn.style.backgroundColor = 'transparent'; 
+    }
+    else if(handelaar == "blissAndBloom"){
+        voets.style.visibility = "hidden";
+        blissAndBloom.style.visibility = "visible";
+        mijnStijl.style.visibility = "hidden"; 
+
+        voetsBtn.style.backgroundColor = 'transparent'; 
+        blissAndBloomBtn.style.backgroundColor = '#DE8A68'; 
+        mijnStijlBtn.style.backgroundColor = 'transparent'; 
+    }
+    else if(handelaar == "mijnStijl"){
+        voets.style.visibility = "hidden";
+        blissAndBloom.style.visibility = "hidden";
+        mijnStijl.style.visibility = "visible"; 
+
+        voetsBtn.style.backgroundColor = 'transparent'; 
+        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
+        mijnStijlBtn.style.backgroundColor = '#DE8A68'; 
     }
     else{
-        document.getElementById('navigation_list').style.display = 'block';
-        droppeddown = true;
+        voets.style.visibility = "hidden";
+        blissAndBloom.style.visibility = "hidden";
+        mijnStijl.style.visibility = "hidden"; 
+
+        voetsBtn.style.backgroundColor = 'transparent';
+        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
+        mijnStijlBtn.style.backgroundColor = 'transparent'; 
+    }
+}
+
+function dropdown(bool){
+    if(bool){
+        document.getElementById('dropdownMenu').style.display = 'block';
+        document.getElementById('dropdownHide').style.display = "none";
+    }
+    else{
+        document.getElementById('dropdownMenu').style.display = 'none';
+        document.getElementById('dropdownHide').style.display = "block";
     }
 }
 

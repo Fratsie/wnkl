@@ -368,5 +368,399 @@
                 "description": "Sugo campagnola di pomodoro",
                 "image": "/productImages/pastaSauzen/dinonnapomodoro.jpg"
             }
+        },
+        "handzeep": {
+            "Handzeep parfum o.b.v. kokos- en olijfolie 400ml": {
+                "naam": "Handzeep parfum o.b.v. kokos- en olijfolie 400ml",
+                "verkoopprijs": "8.95",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumKokosOlijfolie.jpg"
+            },
+            "Handzeep 250 ml parfum Aloe Vera transparant": {
+                "naam": "Handzeep 250 ml parfum Aloe Vera transparant",
+                "verkoopprijs": "5.95",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumAloeVera.jpg"
+            },
+            "Handzeep parfum lotus jasmijn o.b.v. kokos- en olijfolie 400 ml": {
+                "naam": "Handzeep parfum lotus jasmijn o.b.v. kokos- en olijfolie 400 ml",
+                "verkoopprijs": "8.95",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumLotusJasmijn.jpg"
+            },
+            "Handzeep parfum Cashmere zwarte fles glans 250 ml": {
+                "naam": "Handzeep parfum Cashmere zwarte fles glans 250 ml",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumCashmere.jpg"
+            },
+            "Handzeep parfum Rozemarijn": {
+                "naam": "Handzeep parfum Rozemarijn",
+                "verkoopprijs": "7.50",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumRozemarijn.jpg"
+            },
+            "Handzeep parfum Amber kokos- en olijfolie 250 ml": {
+                "naam": "Handzeep parfum Amber kokos- en olijfolie 250 ml",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/handzeep/parfumAmberKokos.jpg"
+            }
+        },
+        "roomspray": {
+            "Roomspray Aloe Vera 250ML": {
+                "naam": "Roomspray Aloe Vera 250ML",
+                "verkoopprijs": "10.00",
+                "description": "/",
+                "image": "/productImages/handzeep/roomsprayAloeVera.jpg"
+            },
+            "Roomspray Vijg 250ML": {
+                "naam": "Roomspray Vijg 250ML",
+                "verkoopprijs": "10.00",
+                "description": "/",
+                "image": "/productImages/handzeep/roomsprayVijg.jpg"
+            }
+        },
+        "geurstokje": {
+            "Geurstokjes parfum Lotus Jasmijn": {
+                "naam": "Geurstokjes parfum Lotus Jasmijn",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/geurstokjes/lotusJasmijn.jpg"
+            },
+            "Geurstokjes parfum Cashmere": {
+                "naam": "Geurstokjes parfum Cashmere",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/geurstokjes/cashmere.jpg"
+            },
+            "Geurstokjes parfum Rozemarijn": {
+                "naam": "Geurstokjes parfum Rozemarijn",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/geurstokjes/rozemarijn.jpg"
+            },
+            "Geurstokjes Parfum Amber": {
+                "naam": "Geurstokjes Parfum Amber",
+                "verkoopprijs": "7.95",
+                "description": "/",
+                "image": "/productImages/geurstokjes/amber.jpg"
+            }
+        },
+        "geur-hart": {
+            "Hart 55 gram Argille groen, basilicum, parfum citroen basilicum": {
+                "naam": "Hart 55 gram Argille groen, basilicum, parfum citroen basilicum",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/citroenBasillicum.jpg"
+            },
+            "Hart 55 gram licht taupe parfum Cashmere": {
+                "naam": "Hart 55 gram licht taupe parfum Cashmere",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/cashmere.jpg"
+            },
+            "Hart 55 gram lila met lavendelbloesem, geur lavendel": {
+                "naam": "Hart 55 gram lila met lavendelbloesem, geur lavendel",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/lavendel.jpg"
+            },
+            "Hart 55 gram argile jaune parfum lotus jasmijn": {
+                "naam": "Hart 55 gram argile jaune parfum lotus jasmijn",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/lotusJasmijn.jpg"
+            },
+            "Hart 55 gram muntblad parfum verbena": {
+                "naam": "Hart 55 gram muntblad parfum verbena",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/verbena.jpg"
+            },
+            "Hart 55 gram donker grijs parfum groene thee": {
+                "naam": "Hart 55 gram donker grijs parfum groene thee",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/groeneThee.jpg"
+            },
+            "Hart 55 gram legergroen parfum olive": {
+                "naam": "Hart 55 gram legergroen parfum olive",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/olive.jpg"
+            },
+            "Hart 55 gram naturel met rozemarijn parfum mille fleurs": {
+                "naam": "Hart 55 gram naturel met rozemarijn parfum mille fleurs",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/milleFleurs.jpg"
+            },
+            "Hart 55 gram licht blauw parfum linnen": {
+                "naam": "Hart 55 gram licht blauw parfum linnen",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/geurhart/linnen.png"
+            }
+        },
+        "ansichtkaart": {
+            "Ansichtkaart Go for it": {
+                "naam": "Ansichtkaart Go for it",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/goForIt.png"
+            },
+            "Ansichtkaart Merry Xmas (boom)": {
+                "naam": "Ansichtkaart Merry Xmas (boom)",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/merryXmasBoom.png"
+            },
+            "Ansichtkaart zwart/wit Feestje!": {
+                "naam": "Ansichtkaart zwart/wit Feestje!",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/feestje.png"
+            },
+            "Ansichtkaart Beetje geluk wit/zwart": {
+                "naam": "Ansichtkaart Beetje geluk wit/zwart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/beetjeGeluk.png"
+            },
+            "Ansichtkaart Gefeliciteerd XXX": {
+                "naam": "Ansichtkaart Gefeliciteerd XXX",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/gefeliciteerdXxx.jpg"
+            },
+            "Ansichtkaart Bedankt XXX": {
+                "naam": "Ansichtkaart Bedankt XXX",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/bedanktXxx.png"
+            },
+            "Ansichtkaart zwart/wit ps. met hart": {
+                "naam": "Ansichtkaart zwart/wit ps. met hart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/psHart.jpg"
+            },
+            "Ansichtkaart Kadootje wit/zwart": {
+                "naam": "Ansichtkaart Kadootje wit/zwart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/kadootje.png"
+            },
+            "Ansichtkaart Dikke kus X wit/zwart": {
+                "naam": "Ansichtkaart Dikke kus X wit/zwart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/dikkeKus.png"
+            },
+            "Ansichtkaart Zomaar XXX": {
+                "naam": "Ansichtkaart Zomaar XXX",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/zomaar.png"
+            },
+            "Ansichtkaart Bedankt wit/zwart": {
+                "naam": "Ansichtkaart Bedankt wit/zwart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/bedankt.png"
+            },
+            "Ansichtkaart gefeliciteerd wit/zwart": {
+                "naam": "Ansichtkaart gefeliciteerd wit/zwart",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/gefeliciteerd.png"
+            },
+            "Ansichtkaart Love You": {
+                "naam": "Ansichtkaart Love You",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/loveYou.png"
+            },
+            "Ansichtkaart MerryXmas zwart/wit": {
+                "naam": "Ansichtkaart MerryXmas zwart/wit",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/merryXmas.png"
+            },
+            "Ansichtkaart zwart/wit voor jou met bloemen": {
+                "naam": "Ansichtkaart zwart/wit voor jou met bloemen",
+                "verkoopprijs": "0.95",
+                "description": "/",
+                "image": "/productImages/ansichtkaart/bloemen.png"
+            }
+        },
+        "servet": {
+            "Servet kerstboom goud": {
+                "naam": "Servet kerstboom goud",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/kerstboomGoud.jpg"
+            },
+            "Servet Bloem blauw": {
+                "naam": "Servet Bloem blauw",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/bloemBlauw.jpg"
+            },
+            "Servet bloem Craspedia geel": {
+                "naam": "Servet bloem Craspedia geel",
+                "verkoopprijs": "3.25",
+                "description": "/",
+                "image": "/productImages/servet/craspediaGeel.jpg"
+            },
+            "Servet pluim oud roze achtergrond": {
+                "naam": "Servet pluim oud roze achtergrond",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/pluimRoze.jpg"
+            },
+            "Servet Hygge": {
+                "naam": "Servet Hygge",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/hygge.jpg"
+            },
+            "Servet Wabi-sabi": {
+                "naam": "Servet Wabi-sabi",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/wabiSabi.jpg"
+            },
+            "Servet blad groen/grijs": {
+                "naam": "Servet blad groen/grijs",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/bladGroen.jpg"
+            },
+            "Servet wilde bloemen": {
+                "naam": "Servet wilde bloemen",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/servet/wildeBloemen.jpg"
+            }
+        },
+        "bladwijzer":{
+            "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'": {
+                "naam": "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/planner/bladwijzerHerfst.jpg"
+            },
+            "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print": {
+                "naam": "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/planner/bladwijzerRain.jpg"
+            },
+            "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print": {
+                "naam": "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "/productImages/planner/bladwijzerGrowing.jpg"
+            }
+        },
+        "maaltijdplanner": {
+            "De ultieme Maaltijdplanner in Midnight Garden print": {
+                "naam": "De ultieme Maaltijdplanner in Midnight Garden print",
+                "verkoopprijs": "26.95",
+                "description": "/",
+                "image": "/productImages/planner/maaltijdplannerMidnight.jpg"
+            },
+            "De ultieme Maaltijdplanner in Sunny Petals Print": {
+                "naam": "De ultieme Maaltijdplanner in Sunny Petals Print",
+                "verkoopprijs": "26.95",
+                "description": "/",
+                "image": "/productImages/planner/maaltijdplannerSunny.jpg"
+            }
+        },
+        "weekplanner": {
+            "Weekplanner A4 in Sunny Petals print verlijmd": {
+                "naam": "Weekplanner A4 in Sunny Petals print verlijmd",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "/productImages/planner/weekplannerSunnyLijm.jpg"
+            },
+            "Weekplanner A4 in Sunny Petals print ingebonden": {
+                "naam": "Weekplanner A4 in Sunny Petals print ingebonden",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "/productImages/planner/weekplannerSunnyGebonden.jpg"
+            },
+            "Weekplanner A4 in Midnight Garden print verlijmd": {
+                "naam": "Weekplanner A4 in Midnight Garden print verlijmd",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "/productImages/planner/weekplannerMidnightLijm.jpg"
+            },
+            "Weekplanner A4 in Midnight Garden print ingebonden": {
+                "naam": "Weekplanner A4 in Midnight Garden print ingebonden",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "/productImages/planner/weekplannerMidnightGebonden.jpg"
+            }
+        },
+        "to-do": {
+            "To-do lijstje in Sunny Petals print": {
+                "naam": "To-do lijstje in Sunny Petals print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "/productImages/planner/todoSunny.jpg"
+            },
+            "To-do lijstje in Midnight Garden print": {
+                "naam": "To-do lijstje in Midnight Garden print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "/productImages/planner/todoMidnight.jpg"
+            }
+        },
+        "notitieblok": {
+            "Notitieblok A5 'Happy Notes' in Sunny Petals print": {
+                "naam": "Notitieblok A5 'Happy Notes' in Sunny Petals print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "/productImages/planner/notitieSunny.jpg"
+            },
+            "Notitieblok A5 'Happy Notes' in Midnight Garden print": {
+                "naam": "Notitieblok A5 'Happy Notes' in Midnight Garden print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "/productImages/planner/notitieMidnight.jpg"
+            }
+        },
+        "memoblok": {
+            "Memoblokje zelfklevend in Sunny Petals print": {
+                "naam": "Memoblokje zelfklevend in Sunny Petals print",
+                "verkoopprijs": "5.95",
+                "description": "/",
+                "image": "/productImages/planner/memoSunny.jpg"
+            },
+            "Memoblokje zelfklevend in Midnight Garden print": {
+                "naam": "Memoblokje zelfklevend in Midnight Garden print",
+                "verkoopprijs": "5.95",
+                "description": "/",
+                "image": "/productImages/planner/memoMidnight.jpg"
+            }
+        },
+        "armband" :{
+            "Verschillende handgemaakte armbandjes": {
+                "naam": "Verschillende handgemaakte armbandjes",
+                "verkoopprijs": "12.50",
+                "description": "/",
+                "image": "/productImages/planner/armband.jpg"
+            }
+        },
+        "sjaal" :{
+            "Verschillende handgemaakte sjaals": {
+                "naam": "Verschillende handgemaakte sjaals",
+                "verkoopprijs": "10.00",
+                "description": "/",
+                "image": "/productImages/planner/sjaal.jpg"
+            }
         }
 }
